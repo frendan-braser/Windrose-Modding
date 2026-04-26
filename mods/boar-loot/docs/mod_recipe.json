@@ -1,0 +1,36 @@
+{
+  "display_name": "Boar Loot",
+  "slug": "boar-loot",
+  "pak_name": "BoarLoot",
+  "workflow": "boar_resources",
+  "resource_types": [
+    "leather",
+    "meat",
+    "tusk"
+  ],
+  "report_name": "boar_hide_edit_report",
+  "variants": [
+    2,
+    3,
+    5,
+    10
+  ],
+  "default_install_variant": 3,
+  "install_target": "custom",
+  "package_variants": true,
+  "validate_outputs": true,
+  "nexus": {
+    "summary": "Increase boar leather, meat, and tusk quantities while keeping vanilla drop chances intact.",
+    "resources": [
+      "boar leather",
+      "boar meat",
+      "boar tusks"
+    ],
+    "covered": [
+      "standard boars",
+      "female boars",
+      "mega boars"
+    ],
+    "details": "Built for multiplayer groups that want early-game hide and food progression to feel less starved without turning the whole loot system into a cheat mod."
+  }
+}

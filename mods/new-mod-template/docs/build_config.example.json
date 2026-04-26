@@ -1,0 +1,10 @@
+{
+  "name": "__MOD_PAK_NAME__",
+  "input_dir": "<REPO_ROOT>\\mods\\__MOD_SLUG__\\input\\staged",
+  "output_pak": "<REPO_ROOT>\\mods\\__MOD_SLUG__\\output\\__MOD_PAK_NAME___P.pak",
+  "mods_dir": "<WINDROSE_MODS_DIR>",
+  "mount_point": "../../../",
+  "version": "V11",
+  "compression": "",
+  "backup_dir": "<REPO_ROOT>\\mods\\__MOD_SLUG__\\output\\mods_backups"
+}

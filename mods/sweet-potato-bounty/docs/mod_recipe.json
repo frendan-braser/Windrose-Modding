@@ -1,0 +1,27 @@
+{
+  "display_name": "Sweet Potato Bounty",
+  "slug": "sweet-potato-bounty",
+  "pak_name": "SweetPotatoBounty",
+  "workflow": "sweet_potato",
+  "report_name": "sweet_potato_edit_report",
+  "variants": [
+    2,
+    3,
+    5,
+    10
+  ],
+  "default_install_variant": 3,
+  "install_target": "custom",
+  "package_variants": true,
+  "validate_outputs": true,
+  "nexus": {
+    "summary": "Increase sweet potato harvest quantities while keeping vanilla seed and drop chance behavior intact.",
+    "resources": [
+      "sweet potato quantities"
+    ],
+    "covered": [
+      "wild sweet potato plants",
+      "sweet potato crops"
+    ]
+  }
+}

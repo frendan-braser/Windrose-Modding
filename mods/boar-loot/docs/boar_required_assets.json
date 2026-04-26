@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-04-20T01:44:46.535896+00:00",
+  "required_assets": [
+    "/R5BusinessRules/LootTables/Mobs/DA_LT_Mob_Boar_Final",
+    "/R5BusinessRules/LootTablesOverrides/Mobs/DA_ODL_Mob_Boar",
+    "/R5BusinessRules/LootTables/Mobs/DA_LT_Mob_BoarF_Final",
+    "/R5BusinessRules/LootTablesOverrides/Mobs/DA_ODL_Mob_BoarF",
+    "/R5BusinessRules/LootTables/Mobs/DA_LT_Mob_BoarMega_Final",
+    "/R5BusinessRules/LootTablesOverrides/Mobs/DA_ODL_Mob_BoarMega",
+    "/R5BusinessRules/LootTables/Mobs/Rss/DA_LT_Mob_Boar_Leather",
+    "/R5BusinessRules/LootTables/Mobs/Rss/DA_LT_Mob_BoarMega_Leather"
+  ],
+  "notes": [
+    "Place cooked replacement assets in input/staged preserving mount-relative layout.",
+    "For plugin-origin assets under R5/Plugins/R5BusinessRules/Content, stage files under input/staged/R5/Plugins/R5BusinessRules/Content/...",
+    "If an object path starts with /R5BusinessRules, this usually maps to plugin content under R5/Plugins/R5BusinessRules/Content/...",
+    "For paths starting with /Game, stage files under input/staged/Game/...",
+    "Do not place placeholders in staged when building final mod."
+  ]
+}

@@ -1,0 +1,37 @@
+[size=5][b]Crocodile Bounty - Loot Variants (2x / 3x / 5x / 10x)[/b][/size]
+[size=3][color=#D4D4D8]Increase crocodile and corrupted crocodile loot quantities while keeping vanilla drop chances intact.[/color][/size]
+
+[size=4][b]What This Mod Does[/b][/size]
+[size=3][color=#D4D4D8]Scales Min/Max quantities for crocodile resource drops where those drops exist. crocodiles, corrupted crocodiles are covered. Drop chances and weights are left unchanged.[/color][/size]
+
+[size=4][b]Available Variants[/b][/size]
+[list]
+[*][b]2x[/b] - Light boost
+[*][b]3x[/b] - Balanced default
+[*][b]5x[/b] - Faster progression
+[*][b]10x[/b] - High abundance / low grind
+[/list]
+
+[size=4][b]Important Notes[/b][/size]
+[list]
+[*]Drop chance logic is unchanged from vanilla
+[*]If an entry is 0/0 in vanilla, it remains 0/0
+[*]Only quantity values are multiplied
+[*]Use only one variant `.pak` at a time
+[/list]
+
+[size=4][b]Install[/b][/size]
+[list=1]
+[*]Choose one variant `.pak`
+[*]Install it to the correct folder for how you are playing
+[*]Launch game
+[/list]
+
+[size=4][b]Install Paths[/b][/size]
+[list]
+[*][b]Single-player:[/b] [color=#D4D4D8]Windrose\R5\Content\Paks\~mods[/color]
+[*][b]Multiplayer:[/b] [color=#D4D4D8]Windrose\R5\Builds\WindowsServer\R5\Content\Paks\~mods[/color]
+[*][b]Dedicated Server:[/b] [color=#D4D4D8]Windrose Dedicated Server\R5\Content\Paks[/color]
+[/list]
+
+[size=3][color=#D4D4D8]For dedicated servers, you can place the `.pak` directly in the listed folder without creating a `~mods` folder.[/color][/size]

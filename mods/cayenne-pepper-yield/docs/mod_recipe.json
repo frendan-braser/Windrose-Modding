@@ -1,0 +1,26 @@
+{
+  "display_name": "Cayenne Bounty",
+  "slug": "cayenne-pepper-yield",
+  "pak_name": "CayennePepperYield",
+  "workflow": "cayenne_pepper",
+  "report_name": "cayenne_pepper_edit_report",
+  "variants": [
+    2,
+    3,
+    5,
+    10
+  ],
+  "default_install_variant": 3,
+  "install_target": "custom",
+  "package_variants": true,
+  "validate_outputs": true,
+  "nexus": {
+    "summary": "Increase cayenne pepper harvest quantities while keeping vanilla seed and drop chance behavior intact.",
+    "resources": [
+      "cayenne pepper quantities"
+    ],
+    "covered": [
+      "wild cayenne pepper bushes"
+    ]
+  }
+}

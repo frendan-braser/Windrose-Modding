@@ -1,0 +1,5 @@
+mod staging instructions
+
+1) Put edited cooked assets into input/staged following mount-relative paths.
+2) Confirm staged files are real cooked assets (.uasset/.uexp/etc), not notes.
+3) Run build-install command using docs/build_config.json or docs/build_config.local.json.

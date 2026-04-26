@@ -1,0 +1,25 @@
+# Python / virtual env
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Mod build outputs and backups
+**/output/*
+!**/output/.gitkeep
+**/mods_backups/
+
+# Local machine configs and secrets
+.local/*
+!.local/secrets.example.ps1
+!.local/.env.example
+**/docs/build_config.json
+**/docs/build_config.local.json
+**/docs/local.secrets.md
+**/docs/*_edit_report*.json
+**/docs/*_discovery_report.json
+*.key
+*.aes
+
+# Editor / OS
+.DS_Store
+Thumbs.db

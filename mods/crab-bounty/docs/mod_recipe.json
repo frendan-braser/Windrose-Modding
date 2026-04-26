@@ -1,0 +1,36 @@
+{
+  "display_name": "Crab Bounty",
+  "slug": "crab-bounty",
+  "pak_name": "CrabBounty",
+  "workflow": "mob_rss",
+  "mob_keywords": [
+    "crab",
+    "drownedcrab"
+  ],
+  "report_name": "crab_loot_edit_report",
+  "variants": [
+    2,
+    3,
+    5,
+    10
+  ],
+  "default_install_variant": 3,
+  "install_target": "custom",
+  "package_variants": true,
+  "validate_outputs": true,
+  "nexus": {
+    "summary": "Increase crab, Thorn Fiddler, and drowned crab loot quantities while keeping vanilla drop chances intact.",
+    "resources": [
+      "crab meat",
+      "crab shells",
+      "pearls",
+      "undead essence"
+    ],
+    "covered": [
+      "crabs",
+      "Thorn Fiddlers",
+      "drowned crabs"
+    ],
+    "details": "Thorn Fiddlers appear to use the base crab loot tables, so they are covered by the crab entries."
+  }
+}

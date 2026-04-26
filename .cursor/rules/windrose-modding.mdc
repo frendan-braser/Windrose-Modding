@@ -1,0 +1,19 @@
+---
+description: Windrose boar mod continuity and workflow
+alwaysApply: true
+---
+
+# Windrose Modding Rule
+
+- Read `README.md` and `docs/REPO_STRUCTURE.md` for repository conventions.
+- Read `mods/boar-loot/docs/AI_HANDOFF.md` before making changes.
+- Use `modding_tools/windrose_mod_cli.py` commands as the default workflow.
+- Treat `.local/boar-loot.build.json` as the source of truth for local build/install.
+- Keep staged paths mount-correct:
+  - plugin content: `input/staged/R5/Plugins/R5BusinessRules/Content/...`
+  - game content: `input/staged/Game/...`
+- Prefer `build-install --backup-first` before testing.
+- When successful workflows change, update:
+  - `mods/boar-loot/docs/AI_HANDOFF.md`
+  - `mods/boar-loot/README.md` (if user-facing steps changed)
+  - `README.md` (if repository workflow changed)

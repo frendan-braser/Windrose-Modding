@@ -1,0 +1,10 @@
+{
+  "name": "GoatBounty",
+  "input_dir": "<REPO_ROOT>\\mods\\goat-bounty\\input\\staged",
+  "output_pak": "<REPO_ROOT>\\mods\\goat-bounty\\output\\GoatBounty_P.pak",
+  "mods_dir": "<WINDROSE_MODS_DIR>",
+  "mount_point": "../../../",
+  "version": "V11",
+  "compression": "",
+  "backup_dir": "<REPO_ROOT>\\mods\\goat-bounty\\output\\mods_backups"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "CrocodileBounty",
+  "input_dir": "<REPO_ROOT>\\mods\\crocodile-bounty\\input\\staged",
+  "output_pak": "<REPO_ROOT>\\mods\\crocodile-bounty\\output\\CrocodileBounty_P.pak",
+  "mods_dir": "<WINDROSE_MODS_DIR>",
+  "mount_point": "../../../",
+  "version": "V11",
+  "compression": "",
+  "backup_dir": "<REPO_ROOT>\\mods\\crocodile-bounty\\output\\mods_backups"
+}
